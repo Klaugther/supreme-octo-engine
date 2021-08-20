@@ -8,7 +8,7 @@ const NewExpense = (props) => {
       id: Math.random().toString(),
     };
     props.onAddExpense(expenseData);
-    //console.log(expenseData);
+    console.log("Expense data", expenseData);
   };
   return (
     <div className="new-expense">
